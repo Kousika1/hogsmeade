@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
+import "hardhat/console.sol";
+
 contract Shopping {
     uint256 productCount = 0;
     uint256 ordersCount = 0;
